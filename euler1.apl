@@ -5,4 +5,4 @@ euler1←{+/(⍳⍵)×∨⌿0=3 5∘.|⍳⍵}
 
 ⍝ a small shim so that the dyalog
 ⍝ window doesn't close.
-⎕←euler1 999 ⋄ ⎕OFF
+⎕LX←'⍞←euler1 999 ⋄ a←⍞ ⋄ ⎕OFF'
