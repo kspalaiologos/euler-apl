@@ -1,4 +1,4 @@
-⍝ euler4 takes two aruguments representing the range.
+⍝ euler4 takes two arguments representing the range.
 ⍝ running: dyalog euler4.dws
 
 p←{⍵×(≢⍕⍵)=+/(⌽=⊢)⍕⍵}
