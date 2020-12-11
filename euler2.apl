@@ -10,4 +10,4 @@ euler2←{+/fib¨⍸~2|fib¨⍳⍵}
 
 ⍝ a small shim so that the dyalog
 ⍝ window doesn't close.
-⎕LX←'⍞←euler2 33 ⋄ a←⍞ ⋄ ⎕OFF'
+⎕LX←'⍞←euler2 33⋄a←⍞⋄⎕OFF'

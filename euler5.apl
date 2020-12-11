@@ -2,4 +2,4 @@
 ⍝ running: dyalog euler5.dws
 
 euler5←⊃∘⌽(∧\⍳)
-⎕LX←'⍞←euler5 20 ⋄ a←⍞ ⋄ ⎕OFF'
+⎕LX←'⍞←euler5 20⋄a←⍞⋄⎕OFF'
