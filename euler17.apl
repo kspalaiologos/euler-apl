@@ -1,0 +1,13 @@
+p17←{
+    ∆1to9←'onetwothreefourfivesixseveneightnine'
+    ∆10to19←'teneleventwelvethirteenfourteenfifteensixteenseventeeneighteennineteen'
+    ∆20to90←'twentythirtyfortyfiftysixtyseventyeightyninety'
+    count←3+≢'thousand'
+    count+←900×≢'hundred'
+    count+←100×≢∆1to9
+    count+←100×≢∆20to90
+    count+←891×≢'and'
+    count+←80×≢∆1to9
+    count+←10×(≢∆1to9)+≢∆10to19
+    count
+}
